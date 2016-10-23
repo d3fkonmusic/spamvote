@@ -17,14 +17,14 @@ def refresh():
 	spam()
 	return()
 
-filename = (raw_input("Enter a file name to output the number of votes cast: "))
-filez = open(filename,'w')
+#filename = (raw_input("Enter a file name to output the number of votes cast: "))
+#filez = open(filename,'w')
 driver=webdriver.Chrome()
 driver.get("http://www.timesfreshface.com/finalists/10185")
                 
 for i in range(0,10000):
 	print(i,)
-	filez.write(str(i))
+	#filez.write(str(i))
 	refresh()
 	
-filez.close()
+#filez.close()

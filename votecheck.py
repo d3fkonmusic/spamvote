@@ -36,6 +36,6 @@ driver2=webdriver.Chrome()
 driver2.get("http://www.timesfreshface.com/bangalore")
 
 for i in range(0,10000):
-    print(" Chummi = ",checkClient()," Contestant = ",checkCompete())
+    print(" Client = ",checkClient()," Contestant = ",checkCompete())
 #    spam()
     refresh(sleeptime)
